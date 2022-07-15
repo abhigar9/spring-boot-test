@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class SpringBootTestApplication{
+public class SpringBootTestApplication1{
 
 	private final static Logger LOGGER = LoggerFactory.getLogger(SpringBootTestApplication.class);
 	
