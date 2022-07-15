@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringBootTestApplication{
 
-	private final static Logger LOGGER = LoggerFactory.getLogger(SpringDockerApplication.class);
+	private final static Logger LOGGER = LoggerFactory.getLogger(SpringBootTestApplication.class);
 	
 	public static void main(String[] args) {
-		SpringApplication.run(SpringDockerApplication.class, args);
+		SpringApplication.run(SpringBootTestApplication.class, args);
 	}
 	
 	@GetMapping("/")
